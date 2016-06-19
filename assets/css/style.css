@@ -1,6 +1,13 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Regular';
+  src: url("../../fonts/PFS-Regular.eot");
+  src: local("Γÿ║"), url("../../fonts/PFS-Regular.woff") format("woff"), url("../../fonts/PFS-Regular.ttf") format("truetype"), url("../../fonts/PFS-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 .login {
   background-color: #2B2B2B;
-  font: Monospace;
+  font-family: Rage Italic;
   padding-top: 20px;
   padding-bottom: 20px; }
 
@@ -31,10 +38,12 @@ div#myCarousel {
   top: 30%;
   width: 50%;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-family: Rage Italic; }
 
-.carousel-caption p {
-  font-size: 15px; }
+.carousel-caption p, .btn-L, .btn-R {
+  font-size: 15px;
+  font-family: Rage Italic; }
 
 .btn-L, .btn-R {
   padding: 10px 40px 10px 40px;
@@ -58,6 +67,7 @@ div#myCarousel {
   vertical-align: top; }
 
 .navbar .navbar-collapse {
-  text-align: center; }
+  text-align: center;
+  font-family: Rage Italic; }
 
 /*# sourceMappingURL=style.css.map */
