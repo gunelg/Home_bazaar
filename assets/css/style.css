@@ -1,0 +1,63 @@
+.login {
+  background-color: #2B2B2B;
+  font: Monospace;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.login a {
+  text-decoration: none;
+  color: #878787; }
+
+.logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #EFEFEF; }
+
+div#myCarousel {
+  object-fit: cover; }
+
+.carousel-control {
+  width: 0; }
+
+.cr-R {
+  background: none;
+  margin-right: 30px; }
+
+.cr-L {
+  background: none;
+  margin-left: 30px; }
+
+.carousel-caption {
+  top: 30%;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto; }
+
+.carousel-caption p {
+  font-size: 15px; }
+
+.btn-L, .btn-R {
+  padding: 10px 40px 10px 40px;
+  border: 0px outset; }
+
+.btn-L {
+  background-color: #2B2B2B; }
+
+.btn-R {
+  background-color: #DADE55;
+  color: black;
+  font-style: bold; }
+
+.navbar {
+  border: none; }
+
+.navbar .navbar-nav {
+  background: none;
+  display: inline-block;
+  float: none;
+  vertical-align: top; }
+
+.navbar .navbar-collapse {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
