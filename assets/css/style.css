@@ -70,12 +70,15 @@ a, a:hover {
     text-shadow: none; }
 
 .navbar {
-  border: none; }
+  border: none;
+  background: transparent; }
   .navbar .glyphicon-menu-down {
     transform: rotate(0deg);
     transition: 0.3s; }
+  .navbar .open .glyphicon-menu-down {
+    transform: rotate(180deg);
+    transition: 0.3s; }
   .navbar .navbar-nav {
-    background: none;
     display: inline-block;
     float: none;
     vertical-align: top; }
@@ -86,8 +89,5 @@ a, a:hover {
     border: none;
     min-width: 150px;
     text-align: center; }
-  .navbar .open .glyphicon-menu-down {
-    transform: rotate(180deg);
-    transition: 0.3s; }
 
 /*# sourceMappingURL=style.css.map */

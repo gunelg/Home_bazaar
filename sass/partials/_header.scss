@@ -110,13 +110,21 @@ a , a:hover {
 
 .navbar{
 	border: none;
-	.glyphicon-menu-down{
+	background:transparent;
+	
+	.glyphicon-menu-down {
 		transform:rotate(0deg);
 		transition:0.3s;
 	}
 
+	.open{
+		.glyphicon-menu-down{
+			transform:rotate(180deg);
+			transition:0.3s;
+		}
+	}
+
 	.navbar-nav {
-		background: none;	
 		display: inline-block;
 		float: none;
 		vertical-align: top;
@@ -131,12 +139,6 @@ a , a:hover {
 		border:none;
 		min-width:150px;
 		text-align:center;
-	}
-	.open{
-		.glyphicon-menu-down{
-			transform:rotate(180deg);
-			transition:0.3s;
-		}
 	}
 	
 
