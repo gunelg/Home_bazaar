@@ -1,0 +1,107 @@
+#new_arrivals h4 {
+  color: black;
+  padding: 40px;
+  line-height: 4; }
+#new_arrivals .height {
+  height: 50px; }
+#new_arrivals .gift {
+  background: lightgray;
+  line-height: 2;
+  padding: 15px;
+  height: 370px;
+  width: 558px;
+  margin-left: 11px; }
+  #new_arrivals .gift img {
+    margin-top: 20px;
+    width: 200px;
+    height: 300px; }
+  #new_arrivals .gift h2 {
+    margin-top: 70px;
+    margin-left: 40px; }
+    #new_arrivals .gift h2 span {
+      color: #4caf50; }
+  #new_arrivals .gift p {
+    margin-top: 40px;
+    margin-left: 100px; }
+    #new_arrivals .gift p a {
+      color: black; }
+#new_arrivals .lil_arrival {
+  border: 1px solid #ccc;
+  width: 265px;
+  height: 370px;
+  position: relative;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  /*margin: 10px;*/ }
+  #new_arrivals .lil_arrival #new {
+    background: #cddc39;
+    border-radius: 50%;
+    border: 1px solid #c0ca33;
+    width: 40px;
+    height: 40px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    box-shadow: 0px 2px 2px #888888; }
+  #new_arrivals .lil_arrival #hot {
+    background: #ffcc80;
+    border-radius: 50%;
+    border: 1px solid #ffa726;
+    width: 40px;
+    height: 40px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 51px;
+    right: 5px;
+    box-shadow: 0px 2px 2px #888888; }
+  #new_arrivals .lil_arrival #lil_arrival3 {
+    margin-right: -10px; }
+  #new_arrivals .lil_arrival #hot1 {
+    background: #ffcc80;
+    border-radius: 50%;
+    border: 1px solid #ffa726;
+    width: 40px;
+    height: 40px;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 8px;
+    right: 5px;
+    padding: 5px;
+    box-shadow: 0px 2px 2px #888888; }
+  #new_arrivals .lil_arrival img {
+    width: 80px;
+    height: 230px;
+    margin-top: 20px;
+    text-align: center; }
+  #new_arrivals .lil_arrival p {
+    color: #ccc; }
+  #new_arrivals .lil_arrival .btn {
+    background: #ccc;
+    border-radius: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+#video {
+  padding-top: 50px;
+  position: relative; }
+  #video h1 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 84px;
+    color: #4caf50;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    position: absolute;
+    top: 56px;
+    padding: 12px;
+    left: 244px; }
+
+/*# sourceMappingURL=style.css.map */
