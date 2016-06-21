@@ -3,8 +3,8 @@
   font-family: 'RageItalic';
   src: url("../../assets/fonts/RageItalic.eot");
   src: local("Γÿ║"), url("../../assets/fonts/RageItalic.woff") format("woff"), url("../../assets/fonts/RageItalic.ttf") format("truetype"), url("../../assets/fonts/RageItalic.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+  font-weight: bold;
+  font-style: bold; }
 @font-face {
   font-family: 'Lato-Regular';
   src: url("../../assets/fonts/Lato-Regular.eot");
@@ -29,30 +29,31 @@ a, a:hover {
   padding-bottom: 20px;
   border-bottom: 1px solid #EFEFEF; }
 
-#myCarousel .item {
-  height: 400px; }
-  #myCarousel .item img {
-    width: 100%;
-    height: 400px; }
-  #myCarousel .item .carousel-control {
-    width: 0; }
-  #myCarousel .item .cr-R {
-    background: none;
-    margin-right: 30px; }
-  #myCarousel .item .cr-L {
-    background: none;
-    margin-left: 30px; }
+div#myCarousel .item {
+  height: 450px; }
+div#myCarousel img {
+  width: 100%;
+  height: 450px; }
+div#myCarousel .carousel-control {
+  width: 0; }
+div#myCarousel .cr-R {
+  background: none;
+  margin-right: 30px; }
+div#myCarousel .cr-L {
+  background: none;
+  margin-left: 30px; }
 
 .carousel-caption {
   font-family: RageItalic;
-  font-size: 30px; }
+  font-size: 30px;
+  font-style: bold; }
   .carousel-caption h1 {
     font-size: 60px; }
   .carousel-caption p, .carousel-caption .btn-L, .carousel-caption .btn-R {
     font-size: 15px;
     font-family: Lato-Regular; }
   .carousel-caption .btn-L, .carousel-caption .btn-R {
-    padding: 10px 40px 10px 40px;
+    padding: 10px 39px 10px 39px;
     border: 0px outset;
     text-decoration: none; }
   .carousel-caption .btn-L {
@@ -75,9 +76,11 @@ a, a:hover {
   .navbar .glyphicon-menu-down {
     transform: rotate(0deg);
     transition: 0.3s; }
-  .navbar .open .glyphicon-menu-down {
-    transform: rotate(180deg);
-    transition: 0.3s; }
+  .navbar .open {
+    transition: 0.9s; }
+    .navbar .open .glyphicon-menu-down {
+      transform: rotate(180deg);
+      transition: 0.3s; }
   .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -88,6 +91,7 @@ a, a:hover {
   .navbar .dropOrg {
     border: none;
     min-width: 150px;
-    text-align: center; }
+    text-align: center;
+    transition: 0.9s; }
 
 /*# sourceMappingURL=style.css.map */
