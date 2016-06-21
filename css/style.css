@@ -19,12 +19,13 @@
     margin-top: 70px;
     margin-left: 40px; }
     #new_arrivals .gift h2 span {
-      color: #4caf50; }
+      color: #a1bd53; }
   #new_arrivals .gift p {
     margin-top: 40px;
     margin-left: 45px; }
     #new_arrivals .gift p a {
-      color: black; }
+      color: black;
+      text-decoration: none; }
 #new_arrivals .lil_arrival {
   border: 1px solid #ccc;
   width: 265px;
@@ -94,7 +95,7 @@
   #video h1 {
     font-family: "Brush Script MT", cursive;
     font-size: 84px;
-    color: #4caf50;
+    color: #a1bd53;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
