@@ -1,0 +1,134 @@
+
+
+#new_arrivals{
+	
+	h4{
+		color: black;
+		padding: 40px;
+		line-height: 4;
+	}
+	.height{
+		height: 50px;
+	}
+	.gift{
+		background: lightgray;
+		line-height: 2;
+		padding: 15px;
+		height: 370px;
+		width: 558px;
+    	margin-left: 11px;
+		img{
+			margin-top: 20px;
+			width: 200px;
+			height: 300px;
+		}
+		h2{
+			margin-top: 70px;
+			margin-left: 40px;
+			span{
+				color: #a1bd53;
+			}
+		}
+		p{
+			margin-top: 40px;
+			margin-left: 45px;
+			
+			a{
+			color: black;	
+			text-decoration: none;
+			}
+		}
+
+	}
+	
+	.lil_arrival{
+		border: 1px solid #ccc;
+		width: 265px;
+		height: 370px;
+		position: relative;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		/*margin: 10px;*/
+    	
+    	#new{
+    		background: #cddc39;
+    		border-radius: 50%;
+    		border: 1px solid #c0ca33;
+    		width: 40px;
+    		height: 40px;
+    		color: black;
+    		text-align: center;
+    		padding: 5px;
+    		position: absolute;
+    		top: 8px;
+    		right: 5px;
+    		box-shadow: 0px 2px 2px #888888;
+    	}
+    	#hot{
+    		background: #ffcc80;
+    		border-radius: 50%;
+    		border: 1px solid #ffa726;
+    		width: 40px;
+    		height: 40px;
+    		color: black;
+    		text-align: center;
+    		padding: 5px;
+    		position: absolute;
+    		top: 51px;
+    		right: 5px;
+    		box-shadow: 0px 2px 2px #888888;
+    	}
+    	#lil_arrival3{
+    		margin-right: -10px;
+    	}
+    	#hot1{
+    		background: #ffcc80;
+    		border-radius: 50%;
+    		border: 1px solid #ffa726;
+    		width: 40px;
+    		height: 40px;
+    		color: black;
+    		text-align: center;
+    		position: relative;
+    		top: 8px;
+    		right: 5px;
+    		padding: 5px;
+    		box-shadow: 0px 2px 2px #888888;
+    	}
+		img{
+			width: 80px;
+			height: 230px;
+			margin-top: 20px; 
+			
+			text-align:center;
+		}
+		p{
+			color: #ccc;
+		}
+		.btn{
+			background: #ccc;
+			border-radius: 0;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+	}
+}
+
+#video{
+	padding-top: 50px;
+	position: relative;
+	h1{
+		font-family: "Brush Script MT", cursive;
+	font-size: 84px;
+	color: #a1bd53;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	position: absolute;
+    top: 56px;
+    padding: 12px;
+    left: 244px;
+}
+}
