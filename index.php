@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <link type="text/css" rel="stylesheet" href="assets/css/lightslider.css" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -23,26 +23,24 @@
   </head>
   <body>
       <!-- Rüfət: start -->
-    <div class="container-fluid">
-  	  <section class="header">
+  <div class="container-fluid">
+      <section class="header">
         <div class="row login">
-    			<ul class="list-inline left col-md-6 text-center">
-    				<li><a href="#">LOG IN</a></li>
-    				<li><a href="#">REGISTER</a></li>
-    				<li><a href="#">ACCOUNT</a></li>
-    			</ul>
-    			<ul class="list-inline col-md-6 text-center">
-    				<li><a href="#">ENG</a></li>
-    				<li><a href="#">AZ</a></li>
-    				<li><a href="#">WISHLIST</a></li>
-    			</ul>	
-    		</div>
-  		
-        <div class="row logo">
-    			<ul class="list-inline text-center">
-    				<li><i class="fa fa-3x fa-arrows" aria-hidden="true"></i></li>
-    			</ul>
-    		</div>
+          <ul class="list-inline left col-md-6 text-center">
+            <li><a href="#">LOG IN</a></li>
+            <li><a href="#">REGISTER</a></li>
+            <li><a href="#">ACCOUNT</a></li>
+          </ul>
+          <ul class="list-inline col-md-6 text-center">
+            <li><a href="#">ENG</a></li>
+            <li><a href="#">AZ</a></li>
+            <li><a href="#">WISHLIST</a></li>
+          </ul> 
+        </div>
+      
+        <div class="logo">
+          <a href="#"><img src="images/Home-bazaar-logo.png"  style="width:200px;"></a>
+        </div>
 
         <div class="row menu">
           <nav class="navbar navbar-default navbar-center">
@@ -98,12 +96,12 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
               <div class="item active" id="slide1">
-                <img src="images/inters.jpg" alt="Chania">
+                <img src="images/_slider2.jpg" alt="Chania">
                 <div class="carousel-caption">
                   <h1>Make Your<br> Home<br> Organized</h1>
                   <p>GIVE YOUR FULL OF LOVE FOR THIS PLANET</p>
                   <a href="" class="btn-L">VIEW PRODUCTS</a>
-                  <a href="" class="btn-R">SEE ALL</a>
+                  <a href="" class="btn-R"><span class="btn-Rspan">SEE ALL</span></a>
                 </div>
               </div>
 
@@ -113,7 +111,7 @@
                   <h1>Make Your<br> Home<br> Organized</h1>
                   <p>GIVE YOUR FULL OF LOVE FOR THIS PLANET</p>
                   <a href="" class="btn-L">VIEW PRODUCTS</a>
-                  <a href="" class="btn-R">SEE ALL</a>
+                  <a href="" class="btn-R"><span class="btn-Rspan">SEE ALL</span></a>
                 </div>
               </div>
 
@@ -135,7 +133,7 @@
       <!-- Rüfət:  end -->
     
       <!-- Murad: start -->
-      <div class="bg-white padding-section">
+     <div class="bg-white padding-section">
         <div class="container">
           <div class="row txt-center">
             <h2 class="col-xs-12 txt-upper color-2b2b2b">welcome to flowie garden</h2>
@@ -178,9 +176,9 @@
       <div class="bg-f1f1f1 padding-section">
         <div class="container">
           <div class="row txt-center">
-            <h2 class="col-xs-12 txt-upper color-2b2b2b">Featured items</h2>
+            <h2 class="col-xs-12 txt-upper color-2b2b2b f-lato">Featured items</h2>
 
-            <ul class="nav nav-tabs display-ib" role="tablist">
+            <ul class="nav nav-tabs display-ib m-t-3" role="tablist">
               <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
 
               <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
@@ -190,79 +188,28 @@
               <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
             </ul> <!-- end of .nav-tabs  -->
 
-            <div class="tab-content">
+            <div class="tab-content m-t-3">
               <div role="tabpanel" class="tab-pane active" id="home">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-
                   <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                      <div class="thumbnail no-margin">
+                  <?php for ($i=0; $i < 4; $i++) : ?>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 m-b-3">
+                      <div class="thumbnail no-margin no-radius">
                         <a href="#" class="display-b">
                           <img src="images/_slider.jpg" alt="">
 
                           <div class="caption">
-                            <h3>Small Cactus Variety pot from France</h3>
-                            <p>$45.00</p>
+                            <h3 class="f-lato">Small Cactus Variety pot from France</h3>
+                            <p class="f-lato">$45.00</p>
                           </div>
                         </a>
                       </div> <!-- end of .thumbnail -->
 
-                      <span class="thumbnail-addCart display-b">
-                        <a href="#" class="">Add to card</a>
-                      </span>
+                      <span class="display-b">
+                          <a href="#" class="f-lato btn-card btn btn-block no-radius color-2b2b2b">Add to card</a>
+                        </span>
                     </div>
-
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                      <div class="thumbnail no-margin">
-                        <a href="#" class="display-b">
-                          <img src="images/_slider.jpg" alt="">
-
-                          <div class="caption">
-                            <h3>Small Cactus Variety pot from France</h3>
-                            <p>$45.00</p>
-                          </div>
-                        </a>
-                      </div> <!-- end of .thumbnail -->
-
-                      <span class="thumbnail-addCart display-b">
-                        <a href="#" class="">Add to card</a>
-                      </span>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                      <div class="thumbnail no-margin">
-                        <a href="#" class="display-b">
-                          <img src="images/_slider.jpg" alt="">
-
-                          <div class="caption">
-                            <h3>Small Cactus Variety pot from France</h3>
-                            <p>$45.00</p>
-                          </div>
-                        </a>
-                      </div> <!-- end of .thumbnail -->
-
-                      <span class="thumbnail-addCart display-b">
-                        <a href="#" class="">Add to card</a>
-                      </span>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                      <div class="thumbnail no-margin">
-                        <a href="#" class="display-b">
-                          <img src="images/_slider.jpg" alt="">
-
-                          <div class="caption">
-                            <h3>Small Cactus Variety pot from France</h3>
-                            <p>$45.00</p>
-                          </div>
-                        </a>
-                      </div> <!-- end of .thumbnail -->
-
-                      <span class="thumbnail-addCart display-b">
-                        <a href="#" class="">Add to card</a>
-                      </span>
-                    </div>
-
+                  <?php endfor ?>
                   </div> <!-- end of .row -->
                 </div> <!-- end of .col-lg-6 main first -->
 
@@ -270,11 +217,11 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   <div class="row">
                     <div class="col-xs-12 i-frame">
-                      <h2>We from France. <br><span class="color-green">BestWishes</span> for you</h2>
+                      <h2 class="f-lato">We from France. <br><span class="color-green">BestWishes</span> for you</h2>
 
-                      <p>Hawker & Jonre PSD Template is an awesome design idea for your online shop. Creative. Modern. Elegant. Clean. Also it will be very easy to customize, enable you to either create a stunning layout of your own or just do some minor and some adjustments.</p>
+                      <p class="f-lato">Hawker & Jonre PSD Template is an awesome design idea for your online shop. Creative. Modern. Elegant. Clean. Also it will be very easy to customize, enable you to either create a stunning layout of your own or just do some minor and some adjustments.</p>
 
-                      <a href="#" class="display-b color-3b3b3b headline headline-green">View more</a>
+                      <a href="#" class="display-b color-3b3b3b headline headline-green f-lato">View more</a>
                     </div>
                   </div> <!-- end of .row  -->
                 </div> <!-- end of .col-lg-6 main second  -->
@@ -297,84 +244,84 @@
             <h4>NEW ARRIVALS</h4>
           </div>
           <div class="row">
-            <div class=" col-md-6">
-             <div class="gift"> 
-              <div class="col-md-6">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+             <div class="gift clearfix m-b-2"> 
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <a href="#">
                 <img class="center-block img-responsive" src="images/plant1.jpg">
               </a>
               </div>
-              <div class=" col-md-6">
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <h2 class="text-left">
                 MORE THAN <br> A GIFT.<br>IT'S  <span>LOVE</span>. 
                 </h2>
-                    <p><a class="text-left" href="#">VIEW MORE</a></p>
+                    <p><a class="text-left headline headline-green" href="#">VIEW MORE</a></p>
               </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
               <div class="lil_arrival">
                 <a href="#">
-                  <img class="center-block" src="images/gostak.jpg">
+                  <img class="center-block img-responsive"  src="images/angel.jpg">
                 </a>
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
                 <p class="text-center">$45.00</p>
-                <button type="button" class="btn btn-default btn-block">ADD TO CARD</button>
+                <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
             </div>
               </div>
-            <div class="col-md-3">
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
               <div class="lil_arrival">
                 <span class="pull-right" id="new">NEW</span>
                 <span class="pull-right" id="hot">HOT</span>
                 <a href="#">
-                   <img class="center-block" style="width: 120px;" src="images/angel.jpg">
+                   <img class="center-block img-responsive"  src="images/angel.jpg">
                 </a>
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
                 <p class="text-center">$45.00</p>
-                <button type="button" class="btn btn-default btn-block">ADD TO CARD</button>
+                <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
               </div>
           </div>
         </div>
         <div class="row">
-          <div class=" col-md-3">
-            <div id="lil_arrival3" class="lil_arrival ">
+          <div class=" col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div  class="lil_arrival ">
             <a href="#">
-                <img class="center-block" style="width: 150px;" src="images/coaster.jpg">
+                <img class="center-block img-responsive"  src="images/pitcher.jpg">
             </a>
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
                 <p class="text-center">$45.00</p>
-                <button type="button" class="btn btn-default btn-block">ADD TO CARD</button>
+                <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
             </div>
           </div>
-          <div class=" col-md-3">
+          <div class=" col-xs-6 col-sm-6 col-md-3 col-lg-3">
             <div class="lil_arrival">
                <span class="pull-right" id="hot1">HOT</span>  
                 <a href="#">
-                 <img class="center-block" style="width: 180px;" src="images/travelcase4.jpg">
+                 <img class="center-block img-responsive"  src="images/travelcase4.jpg">
                 </a>            
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
                 <p class="text-center">$45.00</p>
-                <button type="button" class="btn btn-default btn-block">ADD TO CARD</button>
+                <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
             <div class="lil_arrival">
               <a href="#">
-               <img class="center-block" style="width: 180px;" src="images/pitcher.jpg">
+               <img class="center-block img-responsive"  src="images/pitcher.jpg">
               </a>
               <h6 class="text-center">Small cactus variety pot<br> from France</h6>
               <p class="text-center">$45.00</p>
-              <button type="button" class="btn btn-default btn-block">ADD TO CARD</button>
+              <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
             </div> 
           </div>
-          <div class=" col-md-3">
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
             <div class="lil_arrival">
             <a href="#">
-              <img class="center-block" style="width: 150px;" src="images/kidsinfuser.jpg">
+              <img class="center-block img-responsive"   src="images/kidsinfuser.jpg">
             </a>
               <h6 class="text-center">Small cactus variety pot<br> from France</h6>
               <p class="text-center">$45.00</p>
-              <button type="button" class="btn btn-default btn-block">ADD TO CARD</button>
+              <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
             </div>
           </div>
         </div>
@@ -393,18 +340,15 @@
       <!-- Gunel:  end -->
 
       <!-- Aysel: start -->
-      <div class="container fluid">
-  <div class="container">
-
-                <div class="row ourrow">
-
-                  <h1><b>FROM OUR BLOG<b></h1>
-                </div>
+ <div class="container fluid">
+            <div class="container">
+                   <div class="row ourrow">
+                      <h1><b>FROM OUR BLOG<b></h1>
+                   </div>
 
     <div class="row rowcol"> 
-  
     <div class="col-md-5 col-md-offset-1"> 
-          <div class="ourcol"></div>
+          <div class="ourcol"><img src="images/IMG_20160517_234110_-1704803325.jpg"></div>
            <div class="row rownewsleft">
             <div class="col-md-3">
               <div id="datedayleft"><b>12</b>
@@ -412,22 +356,19 @@
             </div>
             </div>
             <div class="col-md-9">
+            <div class="hhp">
+                  <h4>Lorem ipsum dolor sit amet, consectetur adipisicit</h4>
+                  <h6>Lorem ipsum dolor sit amet</h6>
+                  <p>Lorem ipsum dolor sit amdolore magna alienim ad minim veniam,
+                  quis nostrud exeint occaecat cupidatat non
+                  proident, sunt anim id est laborum.</p>
+                  </div>
            
-              <h4>Lorem ipsum dolor sit amet, consectetur adipisicit</h4>
-              <h6>Lorem ipsum dolor sit amet</h6>
-              <p>Lorem ipsum dolor sit amdolore magna alienim ad minim veniam,
-              quis nostrud exeint occaecat cupidatat non
-              proident, sunt anim id est laborum.</p>
-           
-              </div>
             </div>
-   
-      
-    </div>
+            </div>
+            </div>
     <div class="col-md-5">
-    
-           
-             <div class="ourcol"></div>
+    <div class="ourcol"><img src="images/plant1.jpg"></div>
             <div class="row rownewsright">
               <div class="col-md-3">
                 <div id="datedayright"><b>23</b>
@@ -435,57 +376,94 @@
               </div>
               </div>
               <div class="col-md-9">
-                <h4>Lorem ipsum dolor sit amet, consectetur adipisicit</h4>
-                <h6>Lorem ipsum dolor sit amet</h6>
-                <p>Lorem ipsum dolor sit amdolore magna alienim ad minim veniam,
-                quis nostrud exeint occaecat cupidatat non
-                proident, sunt anim id est laborum.</p>
+              <div class="hhp">
+                  <h4>Lorem ipsum dolor sit amet, consectetur adipisicit</h4>
+                  <h6>Lorem ipsum dolor sit amet</h6>
+                  <p>Lorem ipsum dolor sit amdolore magna alienim ad minim veniam,
+                  quis nostrud exeint occaecat cupidatat non
+                  proident, sunt anim id est laborum.</p>
               </div>
-
-          
-              
-        </div>
+              </div>
+              </div>
       
     </div>
     </div>
     </div>
- <div class="container-fluid">
+    </div>
 
-  <div class="row ">
-    <div class="col-md-2 col-md-offset-2">
-  <div class="followinsta">FOLLOW US ON INSTAGRAM</div>
-  </div>
-  </div>
-   </div> 
-</div>
-<div class="container-fluid">
-<div class="row">
-<div id="instafotos">
-
- <img src="images/IMG_20160524_145055_-1147962981.jpg">
- <img src="images/IMG_20160524_130824_427081888.jpg"> 
- <img src="images/IMG_20160409_201802_1690742545.jpg">
- <img src="images/IMG_20160525_102358_105774757.jpg">
- <img src="images/IMG_20160527_143933_1127977340.jpg">
- <img src="images/IMG_20160527_144854_747487239.jpg">
- <img src="images/IMG_20160517_234110_-1704803325.jpg">
- <img src="images/IMG_20160518_174056_-466898338.jpg">
- 
+      <div class="hidden-xs">
+    <div class="row ">
+        <div class="col-md-2 col-md-offset-2 ">
+          <div class="followinsta">FOLLOW US ON INSTAGRAM</div>
+       </div>
+   </div>
 
 
+  <div id="instafotos">
   
-  </div>
-</div>
-</div>
- <div class="container-fluid">
+       <ul id="lightSlider">
+        <li data-thumb="images/IMG_20160524_145055_-1147962981.jpg">
+            <img src="images/IMG_20160524_145055_-1147962981.jpg" />
+        </li>
+        <li data-thumb="images/IMG_20160524_130824_427081888.jpg">
+            <img src="images/IMG_20160524_130824_427081888.jpg" />
+        </li>
+        <li data-thumb="images/IMG_20160409_201802_1690742545.jpg">
+            <img src="images/IMG_20160409_201802_1690742545.jpg" />
+        </li>
+        <li data-thumb="images/IMG_20160525_102358_105774757.jpg">
+            <img src="images/IMG_20160525_102358_105774757.jpg" />
+        </li>
+        <li data-thumb="images/IMG_20160527_143933_1127977340.jpg">
+            <img src="images/IMG_20160527_143933_1127977340.jpg" />
+        </li>
+        <li data-thumb="images/IMG_20160527_144854_747487239.jpg">
+            <img src="images/IMG_20160527_144854_747487239.jpg" />
+        </li>
+      
+        <li data-thumb="images/IMG_20160524_145055_-1147962981.jpg">
+            <img src="images/IMG_20160524_145055_-1147962981.jpg" />
+        </li>
+        <li data-thumb="images/pitcher.jpg">
+            <img src="images/pitcher.jpg" />
+        </li>
+        <li data-thumb="images/IMG_20160409_201802_1690742545.jpg">
+            <img src="images/IMG_20160409_201802_1690742545.jpg" />
+        </li>
+        <li data-thumb="images/gostak.jpg">
+            <img src="images/gostak.jpg" />
+        </li>
+        <li data-thumb="images/plant1.jpg">
+            <img src="images/plant1.jpg" />
+        </li>
+       
+          <li data-thumb="images/angel.jpg">
+            <img src="images/angel.jpg" />
+        </li>
+        <li data-thumb="images/coaster.jpg">
+            <img src="images/coaster.jpg" />
+        </li>
+        <li data-thumb="images/kidsinfuser.jpg">
+            <img src="images/kidsinfuser.jpg" />
+        </li>
+       
+    
+    </ul>
+                
+ 
+          
+      
+   </div>
 
-  <div class="row ">
-    <div class="col-md-1 col-md-offset-9">
-  <div class="natural"><b>FLOWIE NATURAL</b></div>
-  </div>
-  </div>
+    <div class="row ">
+        <div class="col-md-1 col-md-offset-9">
+          <div class="natural"><b>HOME BAZAAR</b></div>
+        </div>
+    </div>
    </div> 
 </div>
+</div>
+
       <!-- Aysel:  end -->
 
       <!-- Arzu: start -->
@@ -543,6 +521,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/js/bootstrap.min.js"></script>
+    <!-- slider plugin -->
+     <script src="assets/js/lightslider.js"></script>
     <!-- Main js -->
     <script src="assets/js/main.js"></script>
   </body>

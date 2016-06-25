@@ -1,104 +1,139 @@
-$font:Arial sans-serif;
+$font:'Lato', sans-serif;
 $textcenter:center;
-$gr:#006600;
+$gr:#8ac43f;
+$gy:#D3D3D3;
+
 body{
-	margin:0 px;
+	margin:0px;
 	padding:0px;
 }
+
 .ourrow{
 	h1{
 	text-align:$textcenter;
 	padding-top: 70px;
 	padding-bottom: 50px;
+	cursor:pointer;
 	}
 }
 .ourcol{
-	height:180px;
+	cursor:pointer;
+	height:225px;
 	width:445px;
-	background:gray;
 	margin:20px;
+	img{
+		height:225px;
+	width:445px;
+
+	}
 	}
 .rowcol{
-	margin:0 auto;
+	margin:0;
 	}
+.row {
+	margin:0;
+}
 .rownewsleft{
+	cursor:pointer;
 	text-align: justify;
 	padding:20px;
 	margin-top:-30px;
+	font-family: $font;
+	margin-right: -42px;
 	p{
 		margin-top:20px;}
-	margin-left: -17px;
-    margin-right: -44px;
+		font-family: $font;
     
     }
 .rownewsright{
+	cursor:pointer;
 	text-align: justify;
     padding: 20px;
     margin-top: -30px;
-    margin-left: -6px;
+    
     margin-right: -42px;
-	p{margin-top:20px;}
+    font-family: $font;
+	p{
+		margin-top:20px;
+		font-family: $font;}
 	}
 #datedayleft{
     position:relative;
     font: normal 102px $font;
-    color:lightgray;
+    color:$gy;
     top: 5px;
     
    
 }
 #datemonthleft{
     position:absolute;;
-	font: normal 18px $font;
+	font: normal 20px $font;
 	color:$gr;	
 	text-align:$textcenter;
-	margin-top:-69px;
-	margin-left:18px;
+	margin-top:-71px;
+	margin-left:28px;
 
 }
 #datedayright{
   position:relative;
-   font: normal 102px Arial sans-serif;
-    color: lightgray;
-    top: 5px;
+  font: normal 102px $font;
+  color: $gy;
+  top: 5px;
 
   
 }
 #datemonthright{
+	cursor:pointer;
     position:absolute;
-	font: normal 18px $font;
+	font: normal 20px $font;
 	color:$gr;	
 	text-align:$textcenter;
-	top:49px;
-	margin-left:21px;
+	top:52px;
+	margin-left:28px;
 }
 
 #instafotos{
-    img{height:165px;width:169px;margin-right:-5px;
-    }
+    img{
+    	height:165px;
+    	width:169px;
+	}
     position: relative;
-    z-index: -1;
     width:100%;
-    
-    padding: 0px;
-    }
+    font-family: $font;
+    .lSSlideOuter .lSPager.lSpg > li a {
+		background-color: #3FB649;}
+		.lSSlideOuter .lSPager.lSpg > li:hover a, .lSSlideOuter .lSPager.lSpg > li.active a {
+			background-color: green;
+	}
+}
 .followinsta{
-	 position: absolute;
-    font: normal 9px $font;background:black;color:white;width:130px;
+	cursor:pointer;
+	position: absolute;
+    font: 9px $font;
+    background:black;
+    color:white;
+    width:150px;
     height: 26px;
     text-align: center;
     bottom:-26px;
     padding: 7px;
+    z-index:1;
+    margin-left:-30%;
 }
     .natural{
-   position: absolute;
-    font: normal 11px $font;background:yellow;color:black;width:130px;
+    position: absolute;
+    font: 11px $font;background:yellow;color:black;width:130px;
     height: 26px;
     text-align: center;
-    bottom:1px;
+    bottom:26px;
     padding: 7px;
+    z-index:1;
+    cursor:pointer;
     
-    }
+}
+.hhp{
+	margin-left:15px;
+}
 
 @media only screen and (max-width:480px){
 body{
@@ -109,15 +144,19 @@ body{
 	h1{
 	text-align:$textcenter;
 	margin-left:35px;
-	
-}
-}
-.ourcol{
-	width:100%;
+	}
 }
 
+.ourcol{
+	img{
+		height:225px;
+	width:100%;
+
+	}
+	}
+
 #datedayleft{
-margin-left: 25%;
+	margin-left: 25%;
 
 }
 .rownewsleft{
@@ -128,7 +167,7 @@ h4,p{
 
 }
 #datedayright{
-margin-left: 25%;
+	margin-left: 25%;
 }
 .rownewsright{
 h4,p{
@@ -138,27 +177,32 @@ h4,p{
 .text{
 	width:100%;
 }
-#instafotos{img{width:70%;
-	margin-left:15%;}}
+// #instafotos,.followinsta, .natural{
+// 	visibility: hidden;
+		
+	
+// }
  .ourcol{
 	width:100%;
-	background:lightgray;
+	background:$gy;
 	}   
 }
 .followinsta{
 	 margin-left:10%;
 }
     .natural{
-    	margin-left:10%;
-   
-    
-    }
+    	margin-left:15%;
+   }
+
+ 
+
+
+
 @media only screen and (min-width:481px)and(max-width:1365px){
-.ourrow{h1{
+.ourrow{
+	h1{
 	text-align:$textcenter;
 	margin-left:35px;
-
-	
 	}
 }
 .ourcol{
@@ -166,18 +210,23 @@ h4,p{
 }
 
 .rownewsleft{
-h4,p{ margin-top:30px;}
+h4,p{
+	 margin-top:30px;
+	}
 }
 
 .rownewsright{
-h4,p{ margin-top:30px;}
+	h4,p{
+	 margin-top:30px;
+	}
 }
-.ourcol{	width:100%; background:lightgray;}
-#instafotos{img{width:25%;
-}}
-}
-
-
-
+.ourcol{	
+	width:100%; 
 	
-
+}
+#instafotos{
+	img{
+		width:115%;
+}
+}
+}

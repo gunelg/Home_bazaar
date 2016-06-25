@@ -59,6 +59,8 @@ $gutter-height: 10;
 
 .fs-16 { font-size: 16px; }
 
+.f-lato { font-family: $font; } // $font from header.scss
+
 
 .txt-left{ text-align: left }
 .txt-right{ text-align: right }
@@ -88,6 +90,8 @@ $gutter-height: 10;
 		&:before { @extend .bg-green; }
 	}
 }
+
+.no-radius { border-radius: 0 }
 
 
 /************************************************/

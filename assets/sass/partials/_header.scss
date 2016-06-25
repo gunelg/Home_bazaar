@@ -1,13 +1,13 @@
-$Capfont: RageItalic;
+$Capfont: beyond_the_mountains;
 $font: Lato-Regular;
 $pad-top: 20px;
 $pad-bottom: 20px;
 $t-deco: none;
 
 @font-face {
-font-family: 'RageItalic';
-src: url("../../assets/fonts/RageItalic.eot");
-src: local("☺"), url("../../assets/fonts/RageItalic.woff") format("woff"),url("../../assets/fonts/RageItalic.ttf") format("truetype"),url("../../assets/fonts/RageItalic.svg") format("svg");
+font-family: 'beyond_the_mountains';
+src: url("../../assets/fonts/beyond_the_mountains.eot");
+src: local("☺"), url("../../assets/fonts/beyond_the_mountains.woff") format("woff"),url("../../assets/fonts/beyond_the_mountains.ttf") format("truetype"),url("../../assets/fonts/beyond_the_mountains.svg") format("svg");
 font-weight: bold;
 font-style: bold; }
 
@@ -39,9 +39,9 @@ a , a:hover {
 
 
 .logo{
-	padding-top:$pad-top;
-	padding-bottom:$pad-bottom;
+
 	border-bottom: 1px solid #EFEFEF;
+	 text-align:center
 }
 
 
@@ -76,10 +76,15 @@ div#myCarousel {
     font-style: bold;
 
     h1 {
-    	font-size: 60px;
+    	font-size: 50px;
     }
  	
+ 	.btn-Rspan{
+ 		white-space:nowrap;
+ 	}
+
  	p, .btn-L, .btn-R {
+ 		margin-top:25px;
 		font-size: 15px;
 		font-family: $font;
 	} 
