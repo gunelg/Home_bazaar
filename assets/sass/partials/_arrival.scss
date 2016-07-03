@@ -25,14 +25,10 @@
 		background: $color-f1f1f1;
 		line-height: 2;
 		padding: 15px;
-		/*height: 370px;*/
-		/*width: 558px;*/
     	margin-left: 11px;
 
 		img{
 			margin-top: 20px;
-/*			width: 200px;
-			height: 300px;*/
 		}
 		h2{
 			margin-top: 70px;
@@ -55,12 +51,9 @@
 	
 	.lil_arrival{
 		border: 1px solid $color-f1f1f1;
-		/*width: 265px;*/
-		/*height: 370px;*/
 		position: relative;
 		margin-left: 10px;
 		margin-bottom: 10px;
-		/*margin: 10px;*/
     	
     	#new{
     		background: #cddc39;
@@ -91,7 +84,7 @@
     		box-shadow: 0px 2px 2px #888888;
     	}
     	#lil_arrival3{
-    		/*margin-right: -10px;*/
+    		
     	}
     	#hot1{
     		background: #ffcc80;
@@ -108,11 +101,10 @@
     		box-shadow: 0px 2px 2px #888888;
     	}
 		img{
-			/*width: 150px;
-			height: 230px;*/
-			margin-top: 20px; 
 			
-			/*text-align:center;*/
+			margin-top: 20px; 
+			max-height: 250px;
+			
 		}
 		p{
 			color: #ccc;

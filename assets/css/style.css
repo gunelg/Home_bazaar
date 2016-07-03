@@ -260,9 +260,6 @@ body {
 .rowcol {
   margin: 0; }
 
-.row {
-  margin: 0; }
-
 .rownewsleft {
   cursor: pointer;
   text-align: justify;
@@ -437,13 +434,9 @@ body {
     background: #f1f1f1;
     line-height: 2;
     padding: 15px;
-    /*height: 370px;*/
-    /*width: 558px;*/
     margin-left: 11px; }
     #new_arrivals .gift img {
-      margin-top: 20px;
-      /*			width: 200px;
-      			height: 300px;*/ }
+      margin-top: 20px; }
     #new_arrivals .gift h2 {
       margin-top: 70px;
       margin-left: 40px; }
@@ -457,12 +450,9 @@ body {
         text-decoration: none; }
   #new_arrivals .lil_arrival {
     border: 1px solid #f1f1f1;
-    /*width: 265px;*/
-    /*height: 370px;*/
     position: relative;
     margin-left: 10px;
-    margin-bottom: 10px;
-    /*margin: 10px;*/ }
+    margin-bottom: 10px; }
     #new_arrivals .lil_arrival #new {
       background: #cddc39;
       border-radius: 50%;
@@ -489,8 +479,6 @@ body {
       top: 51px;
       right: 5px;
       box-shadow: 0px 2px 2px #888888; }
-    #new_arrivals .lil_arrival #lil_arrival3 {
-      /*margin-right: -10px;*/ }
     #new_arrivals .lil_arrival #hot1 {
       background: #ffcc80;
       border-radius: 50%;
@@ -505,10 +493,8 @@ body {
       padding: 5px;
       box-shadow: 0px 2px 2px #888888; }
     #new_arrivals .lil_arrival img {
-      /*width: 150px;
-      height: 230px;*/
       margin-top: 20px;
-      /*text-align:center;*/ }
+      max-height: 250px; }
     #new_arrivals .lil_arrival p {
       color: #ccc; }
 
@@ -805,16 +791,6 @@ body {
 .height {
   height: 30px; }
 
-.container-fluid {
-  /*padding-right: 15px;
-  padding-left: 15px;*/
-  margin-right: -15px;
-  margin-left: -15px; }
-
-.row {
-  margin-right: 0;
-  margin-left: 0; }
-
 body {
   font-family: 'Lato', sans-serif;
   color: #333; }
@@ -828,7 +804,7 @@ a, .fa-chevron-right a:hover {
 
 .green_contact {
   height: 150px;
-  background: #81A05D;
+  background: #8ac43f;
   padding-top: 40px; }
 
 #contact {
@@ -850,7 +826,7 @@ a, .fa-chevron-right a:hover {
     bottom: 0;
     padding: 5px 15px; }
     #contact .contactInformation .fa {
-      color: #81A05D;
+      color: #8ac43f;
       padding: 20px; }
     #contact .contactInformation p {
       padding-bottom: 15px;
@@ -867,9 +843,59 @@ a, .fa-chevron-right a:hover {
   #contact button {
     color: white;
     border-radius: 0;
-    background: #81A05D;
+    background: #8ac43f;
     width: 170px; }
   #contact input, #contact textarea {
     background: #f1f1f1; }
+
+.aboutusPicture {
+  background-image: url("../../images/aboutus.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 750px;
+  position: relative;
+  width: 100%; }
+
+.grPadMar {
+  margin: 0;
+  padding: 0; }
+
+#about_us {
+  padding: 5px 15px; }
+  #about_us p {
+    color: #8ac43f;
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 2; }
+  #about_us li {
+    font-size: 17px;
+    line-height: 1.5; }
+
+.offerPicture {
+  background-image: url("../../images/discount.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 750px;
+  position: relative;
+  width: 100%; }
+
+#offers h2 {
+  margin-bottom: 30px; }
+#offers .oldPrice {
+  text-decoration: line-through; }
+#offers .newPrice {
+  color: #c62828; }
+
+#delivery .deliveryPic {
+  max-height: 320px;
+  max-width: 457px; }
+#delivery h3 {
+  color: #8ac43f; }
+#delivery p {
+  line-height: 1.5; }
 
 /*# sourceMappingURL=style.css.map */

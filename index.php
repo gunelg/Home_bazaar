@@ -75,7 +75,7 @@
                 <li><a href="#">KIDS</a></li>
                 <li><a href="#">MEN</a></li>
                 <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="contact.php">CONTACT</a></li>
                 <li><a href="#"><i class="fa fa-2x fa-cart-plus" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fa fa-2x fa-search" aria-hidden="true"></i></a></li>
               </ul>
@@ -142,30 +142,30 @@
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 m-b-2">
               <figure>
-                <a href="#" class="display-b color-2b2b2b">
+                <a href="about_us.php" class="display-b color-2b2b2b">
                   <img src="images/_slider.jpg" class="img-responsive" alt="">
 
-                  <figcaption class="txt-upper m-t-2">How we are?</figcaption>
+                  <figcaption class="txt-upper m-t-2">About us</figcaption>
                 </a>
               </figure>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 m-b-2">
               <figure>
-                <a href="#" class="display-b color-2b2b2b">
+                <a href="offers.php" class="display-b color-2b2b2b">
                   <img src="images/_slider.jpg" class="img-responsive" alt="">
 
-                  <figcaption class="txt-upper m-t-2">How we work?</figcaption>
+                  <figcaption class="txt-upper m-t-2">Offers</figcaption>
                 </a>
               </figure>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 m-b-2">
               <figure>
-                <a href="#" class="display-b color-2b2b2b">
+                <a href="delivery.php" class="display-b color-2b2b2b">
                   <img src="images/_slider.jpg" class="img-responsive" alt="">
 
-                  <figcaption class="txt-upper m-t-2">About our products</figcaption>
+                  <figcaption class="txt-upper m-t-2">Ödəniş və Çatdırılma</figcaption>
                 </a>
               </figure>
             </div>
@@ -493,7 +493,7 @@
           <hr/>
           <ul>
             <li><a href="#">Shipping & Policies</a></li>
-            <li><a href="#">Delivery</a></li>
+            <li><a href="delivery.php">Delivery</a></li>
             <li><a href="#">My Account</a></li>
             <li><a href="#">Asked Questions</a></li>
             <li><a href="#">Browse Products</a></li>
